@@ -12,4 +12,4 @@ imageFile = Image.open("your image path")
   - It would data.json file in current Dir.
   - That data.json can use anywhere
 
-In Folder, named `used`, there is a
+In Folder, named `Example`, there is a

@@ -14,12 +14,14 @@ function putData(data){
             dataX.forEach(
                 function(dataY, index){
                     let y = index;
-                    let newSpan = document.createElement("span");
-                    newSpan.style.top = y+"%";
-                    newSpan.style.left = x+"%";
-                    newSpan.style.color = data[x][y][0];
-                    newSpan.innerHTML = data[x][y][1];
-                    document.querySelector('#textImg').appendChild(newSpan);
+                    if(data[x][y][1] != ' '){
+                        let newSpan = document.createElement("span");
+                        newSpan.style.top = y+"%";
+                        newSpan.style.left = x+"%";
+                        newSpan.style.color = data[x][y][0];
+                        newSpan.innerHTML = data[x][y][1];
+                        document.querySelector('#textImg').appendChild(newSpan);
+                    }
                 }
             );
         }

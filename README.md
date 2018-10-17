@@ -5,9 +5,8 @@ This program convert any image to text
   - Change image Path 
 ```
 ...ze = 100;
-image_file = Image.open("your image path")
-wp...
-
+imageFile = Image.open("your image path")
+...
 ```
   - And run run.py
   - It would data.json file in current Dir.

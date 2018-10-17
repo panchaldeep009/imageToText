@@ -10,4 +10,7 @@ wp...
 
 ```
   - And run run.py
-  - It would create three json files that has all data and HTML preview.
+  - It would data.json file in current Dir.
+  - That data.json can use anywhere
+
+In Folder, named `used`, there is a

@@ -4,7 +4,7 @@
 There are two way to use it
 ###### using javascript
 This is the easist way to do it 
-  - edit `js/main.js` and point Image or video element and canvas
+  - edit `js/main.js` and point Image or video element and canvas from `index.html`
   
     ' video to text '
     ```
@@ -24,7 +24,7 @@ This is the easist way to do it
     ...
     
     ```
-  - It results the out in `index.html`
+  - It results the output in `index.html`
 ###### using Python
 This python program convert any image to text and export it to data.json
 

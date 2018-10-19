@@ -1,0 +1,13 @@
+#imageToText { 
+    position: relative;
+    width:80vh;
+    height:80vh;
+}
+
+#imageToText video{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
